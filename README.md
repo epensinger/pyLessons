@@ -1,20 +1,19 @@
 # pyLessons
 
-pyLessons is a collection of lessons, example code, and exercises to reinforce programming fundamentals in the python language.
+- pyLessons is a collection of lessons, example code, and exercises to reinforce programming fundamentals in the python language.
+- pyLessons is organized according to fundamental coding concepts rather than python fundamentals though it is in the python language.
 
-pyLessons is organized according to fundamental coding concepts rather than python fundamentals though it is in the python language.
+## Generally the outline for the lessons is:
 
-Generally the outline for the lessons is:
+- Unit 1 - Intro to Data
+- Unit 2 - Functions
+- Unit 3 - Conditional Statements
+- Unit 4 - Looping and Lists
+- Unit 5 - Dictionaries
+- Unit 6 - Classes
+- Unit 7 - Modules
 
-Unit 1 - Intro to Data
-Unit 2 - Functions
-Unit 3 - Conditional Statements
-Unit 4 - Looping and Lists
-Unit 5 - Dictionaries
-Unit 6 - Classes
-Unit 7 - Modules
-
-Functions has been moved earlier in the ordering of the lessons than they appear in many beginnign programming courses.
+Functions have been moved earlier in the ordering of the lessons than they appear in many beginnign programming courses.
 This choice occured for four reasons:
     1. Functions allow learners to isolate segments of code and identify problem areas more quickly.
     2. Functions allow learners to work on more interesting programs by simply calling complex functions that have been provided.
