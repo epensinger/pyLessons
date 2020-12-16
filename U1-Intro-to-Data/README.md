@@ -7,18 +7,18 @@ Write expressions that can be evaluated to a single value
 Store values in variables
 
 ## Lessons:
-Lesson 1 - Strings
+1. Strings
 - in this lesson you will learn to represent a series of characters as a string.
-Lesson 2 - String concatenation
+2. String concatenation
 - in this lesson you will learn to write expressions that evaluate to a single string.
-Lesson 3 - Numbers
+3. Numbers
 - in this lesson you will learn to represent numbers as either floats or characters.
-Lesson 4 - Numerical Expressions
+4. Numerical Expressions
 - in this lesson you will learn to use mathematical operators to write numerical expressions.
-Lesson 5 - Variable Assignment
+5. Variable Assignment
 - in this lesson you will learn to store your data in variables. 
-Lesson 6 - Variable Expressions
+6. Variable Expressions
 - in this lesson you will learn to replace exact values with variables in your expressions.
-Lesson 7 - Updating Variables
+7. Updating Variables
 - in this lesson you will learn to update the values stored in your variables.
 
