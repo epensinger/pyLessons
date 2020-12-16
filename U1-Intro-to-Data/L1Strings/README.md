@@ -1,0 +1,27 @@
+# Lesson 1 Strings
+In this lesson you will learn to write a string in python.
+
+## Syntax 
+- the python interpreter runs all of the code in the python file from top to bottom.
+- the interpreter understands code that is witten according to python syntax.
+
+_syntax_ - the way characters must be arranged to create meaning that can be understood
+
+## Comments
+- we can include information for humans in our programs and tell the interpreter to ignore it
+- this is called a comment
+- python comments are indicated with a #
+- you can also use # to tell python to ignore a line of code while you are testing and debugging your program
+
+## Strings
+_string_ a series of characters that make up a value to be used by the computer
+- strings must be set off in quotes- either single or double quotes
+
+```python
+"this is a string"
+"555-213-5245"
+'Pa55w0rd'
+```
+
+
+
