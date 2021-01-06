@@ -12,7 +12,7 @@ Store values in variables
 2. String concatenation
 - in this lesson you will learn to write expressions that evaluate to a single string.
 3. Numbers
-- in this lesson you will learn to represent numbers as either floats or characters.
+- in this lesson you will learn to represent numbers as either floats or integers.
 4. Numerical Expressions
 - in this lesson you will learn to use mathematical operators to write numerical expressions.
 5. Variable Assignment
