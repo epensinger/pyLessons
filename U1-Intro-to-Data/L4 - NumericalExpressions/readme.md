@@ -56,3 +56,10 @@ value operator value operator value operator value, etc.
 - Integer division always returns an integer
 - If the result isn't a whole number, the decimal portion is chopped off. 
 - Not highly used, but helpful for converting float to int, or along with the modulo.
+
+### PEMDAS - order of operations
+- When evaluating an expression in Python the computer follows this process:
+    1. Solve anything in *p*arentheses
+    2. Solve any *e*xponents
+    3. Do any *m*ultiplication, *d*ivision, modulo, and integer division (from left to right)
+    4. Do any *a*ddition and *s*ubtraction
