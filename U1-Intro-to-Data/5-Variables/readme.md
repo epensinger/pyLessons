@@ -2,7 +2,6 @@
 In this lesson you will learn how to store data in variables and use it in your code.
 ## Lesson Goals
 - assign values to variables
-- update value of variables
 - naming restrictions and conventions
 ## Key Terms to pay attention to
 - variable
