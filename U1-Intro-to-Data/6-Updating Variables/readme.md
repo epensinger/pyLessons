@@ -1,4 +1,4 @@
-#Lesson 6 - Updating Variables
+# Lesson 6 - Updating Variables
 ## Lesson Goals
 - change the value assigned to a variable
 - update the value assigned to a varaible
