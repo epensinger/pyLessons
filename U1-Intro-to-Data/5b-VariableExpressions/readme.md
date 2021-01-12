@@ -56,7 +56,9 @@ int("five") #==> error
 apples = 5
 boxes = 15
 
-print("I have " + str(apples) + "apples and " + str(boxes) "boxes")
+strApples = str(apples)
+strBoxes = str(boxes)
+print("I have " + strApples + " apples and " + strBoxes + " boxes.")
 
 ```
 
