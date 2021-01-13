@@ -35,7 +35,7 @@ In this lesson you will learn how to store data in variables and use it in your 
 - <code>num_of_cats = 30</code>
 - assigned at the same time as other variables
 - <code>dogs, cats, pets= 5, 99, 104</code>
-### Coding Exercise - Bank Robbers
+### Coding Exercise - Lottery
 ### Naming Restrictions
 1. Variables must start with a letter or underscore
 2. The rest of the name must consist of letters, numbers, or underscores
