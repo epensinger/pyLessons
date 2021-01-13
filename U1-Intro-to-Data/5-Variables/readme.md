@@ -1,5 +1,5 @@
-# Lesson 1 - Variables
-In this lesson you will learn how to store data in variables and use it in your code.
+# Lesson 5 - Variable Assignment
+In this lesson you will learn how to store data in variables
 ## Lesson Goals
 - assign values to variables
 - naming restrictions and conventions
