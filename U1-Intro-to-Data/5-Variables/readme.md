@@ -23,17 +23,23 @@ In this lesson you will learn how to store data in variables
 ## Lesson Outline
 
 ### Variables introduction
-- a variable is a named symbol that holds a value.
+- a variable is a named space that holds a value.
+- think of it as a box that holds a value.
 - helpful to think of it like a variable in math.
 - variables have three parts - a name, the value currently stored there, and the type of data that is stored there.
 
 ### Variable Assignment
 - you must tell python that a variable exists and give it a value before you can use it in code.
+- *assignment statement* - stores a value inside of the variable
+- *assignment operator* - the equals sign, used to store values in variables.
 - ex: <code>id = 57436</code>
+- use variables to write expressions to evaluate data that could change.
+
+#### Some fine print
 - data in python variables can be either dynamic or static.
 - dynamic data is data that will or could change throughout the course of the program.
 - constant data is data that is not to be changed during the course of the program.
-- use variables to write code to handle data you don't know yet.
+
 
 ### Variables Can Be:
 - assigned to other variables
