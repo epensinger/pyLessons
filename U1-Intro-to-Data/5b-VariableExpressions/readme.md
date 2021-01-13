@@ -4,11 +4,17 @@ In this lesson we will learn how to use those variables in our expressions.
 
 ## Term Review
 *expression* - a combination of values and operators that evaluate to a single value.
+
 *evaluate* - to reduce an expression to its simplest form (solve the math problem, combine the strings, determine truthiness or falseness)
+
 *value* - a single piece of data that exists (ex: 5)
+
 *operator* - symbol that indicates how to evaluate data (ex: +, -)
+
 *variable* - named storage space for a value
+
 *variable assignment* - storing a value in a variable
+
 *assignment operator* - the equals sign, symbol used to assign values to variables
 
 
