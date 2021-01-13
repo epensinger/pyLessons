@@ -1,9 +1,10 @@
-# Lesson 6 - Updating Variables
+# Lesson 7 - Updating Variables
 ## Lesson Goals
 - change the value assigned to a variable
 - update the value assigned to a varaible
 
 ## Lesson Outline
+
 ### Change a variable's value
 - to overwrite the value assigned to a variable, simply assign it a new value
 ```python
