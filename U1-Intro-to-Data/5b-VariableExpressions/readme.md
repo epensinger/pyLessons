@@ -51,7 +51,7 @@ int("5") + 6 #==> 11
 int("five") #==> error
 ```
 
-## More Exmaples
+## More Examples
 ```python
 apples = 5
 boxes = 15
