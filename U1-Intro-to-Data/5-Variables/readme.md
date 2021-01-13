@@ -4,21 +4,6 @@ In this lesson you will learn how to store data in variables
 - assign values to variables
 - naming restrictions and conventions
 
-## Key Terms to pay attention to
-- variable
-- variable assignment
-- static data
-- dynamic data
-- snake case
-
-## Key syntaxes
-- assignment statement
-
-## Lesson Activites
-- Variables demo
-- Bank robber coding exercise
-- Naming restrictions demo
-- Naming conventions quiz
 
 ## Lesson Outline
 
