@@ -2,10 +2,12 @@
 
 ## Lesson Goals
 Call built in functions
+
 Pass strings to built in functions
 
 ## Functions
 **Function** - a block of code that carries out a specific task (not attached to an object)
+
 **Built in Function** - functionality that is always available
 
 ```
@@ -31,6 +33,7 @@ IF the function takes multiple arguments, you pass them in order, separated by c
 
 ## Example - Print Function
 Takes a string
+
 Displays it in the interpreter 
 
 ```python
@@ -42,19 +45,35 @@ print("Hello World!")
 
 If a function returns a value, assign the function call to a variable to use it later.
 
+In your lessons, I use the comment #==> to tell you what a function returns, but I don't do that in actual projects.
+
 
 ## Example - Input Function
+
 ```
 name = input("What is your name?")
 ```
+
 - Displays the argument (like the print statement)
+
 - Returns the user's input as a string.
-```
 
 Alternatively:
 ```python
 print("What is your name?")
 name = input()
+```
+
+
+
+## Another example - Length Function
+Takes a string (and other things we'll learn about later like lists)
+
+Returns the length of the string as a number
+
+```python
+name = "pikachu"
+letters = len(name) #==> returns 7 
 ```
 
 
@@ -70,9 +89,3 @@ type(cat) #==> str
 cost = 5.99
 type(cost) #==> float
 )
-
-
-## Another example - Length Function
-Takes a string (and other things we'll learn about later like lists)
-
-Returns the length of the string
