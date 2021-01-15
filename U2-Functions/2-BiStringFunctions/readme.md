@@ -60,6 +60,7 @@ name = input()
 
 ## Another Example - Type Function
 Takes any object
+
 Sends back the type of object
 
 ```python
@@ -69,3 +70,9 @@ type(cat) #==> str
 cost = 5.99
 type(cost) #==> float
 )
+
+
+## Another example - Length Function
+Takes a string (and other things we'll learn about later like lists)
+
+Returns the length of the string
