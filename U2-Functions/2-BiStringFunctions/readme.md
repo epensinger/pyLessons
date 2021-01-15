@@ -29,7 +29,7 @@ You can pass in the actual value, or a variable.
 IF the function takes multiple arguments, you pass them in order, separated by commas (more later).
 
 
-## Print Function
+## Example - Print Function
 Takes a string
 Displays it in the interpreter 
 
@@ -37,14 +37,19 @@ Displays it in the interpreter
 print("Hello World!")
 ```
 
+## Recieving Values from Functions
+**return** - value is transfered from the function to the function call.
 
-## Input Function
+If a function returns a value, assign the function call to a variable to use it later.
+
+
+## Example - Input Function
 ```
 name = input("What is your name?")
 ```
 - Displays the argument (like the print statement)
 - Returns the user's input as a string.
-- Make sure to store the result in a variable
+```
 
 Alternatively:
 ```python
@@ -53,8 +58,7 @@ name = input()
 ```
 
 
-(For later 
-## Type Function
+## Another Example - Type Function
 Takes any object
 Sends back the type of object
 
