@@ -26,7 +26,7 @@ you can use a variable that is a string in place of the string
 ```python
 "steve".upper()
 "Steve".lower()
-"This is fun".title()
+"THIS IS FUN".title()
 ```
 
 ## Methods to use
@@ -35,6 +35,12 @@ s.lower() - turns the string to lower case
 s.upper() - turns the string to upper case
 
 s.title() - turns the string to title case
+
+s.lstrip() - removes any spaces to the left of the string
+
+s.rstrip() - removes any spaces to the right of the string
+
+s.strip() - removes any spaces to either side of the string
 
 s.isalpha() - checks to see if all the characters are letters
 
@@ -62,6 +68,7 @@ word = "superCalifFagilisTicesPialidocious"
 #we don't want to test for both S and s in our search so we make it all lower
 word = word.lower()
 ```
+
 
 ## Yes the empty parenthesis matter
 The () syntax tels python this is a task to execute
