@@ -1,11 +1,13 @@
 # Lesson 1 - Built in Methods with Strings
 
 ## Lesson Goals
-*call built-in methods on strings
-*pass strings to built in functions
+- call built-in methods on strings
+
+- pass strings to built in functions
 
 ## Built-In String Methods
 **Method** block of code that carries out a specific task on an object or class.
+
 **Built-In** refers to functionalities that are included in python as opposed to functionalities we have to add ourselves
 
 (functionality means it's able to do something)
@@ -29,11 +31,17 @@ you can use a variable that is a string in place of the string
 
 ## Methods to use
 s.lower() - turns the string to lower case
+
 s.upper() - turns the string to upper case
+
 s.title() - turns the string to title case
+
 s.isalpha() - checks to see if all the characters are letters
+
 s.isdigit() - checks to see if all the charaters are digits
+
 s.isspace() - checks to see if all the characters are space
+
 
 google python string methods for all sorts more
 
@@ -57,6 +65,7 @@ word = word.lower()
 
 ## Yes the empty parenthesis matter
 The () syntax tels python this is a task to execute
+
 Without (), python looks for values and doesn't execute the task
 
 
