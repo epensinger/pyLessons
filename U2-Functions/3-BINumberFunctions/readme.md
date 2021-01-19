@@ -1,0 +1,83 @@
+# Lesson 3 - Built-In Functions with Numbers
+
+In this lesson you will learn to use built in functions that expect values that are numbers.
+
+## Review - Passing Values to Functions
+**Function Call** - an expression that tells python to execute a function
+
+**Argument** - values that are passed to a function in the function call
+
+Many functions take a value (or a few values), do something with it, and give a value back.  
+
+You should know what kind of value it's expecting and what it will do with it.
+
+The value you are passing into the function goes in the parenthesis.
+
+You can pass in the actual value, or a variable. 
+
+IF the function takes multiple arguments, you pass them in order, separated by commas (more now).
+
+## Passing numbers to functions
+Works exactly like strings, you can put the actual number or a variable.
+
+Often pass more than one value -- order matters!
+
+
+## Example - Round Function
+
+**round(number[, ndigits])**
+
+first parameter is the number you want to round, second parameter is the number of decimals you want to round to
+
+negative ndigits would give you tens, hundreds etc.
+
+[those brackets mean it's optional - if you don't put any it will round to the nearest integer]
+
+```python
+ones = round(3.14159)  #==> 3
+
+tenths = round(3.14159, 1) #==> 3.1
+
+hundredths = round(3.14159, 2) #==> 3.14
+
+tens = round(2354, -1) #==> 2350
+
+hundreds = round(1234, -2) #==> 1200
+```
+
+## Example - Absolute Value
+**abs(number)**
+
+takes a number and returns the absolute value
+
+(absolute value is when you ignore the negative)
+
+Helpful when finding differences between numbers.
+
+```
+#what's the distance between loc_1 and loc_2?
+loc_1 = 3
+loc_2 = 8
+abs(loc_1 - loc_2) #==> 5
+
+#What's the difference between guess and answer?
+guess = 7
+answer = 2
+abs(answer - guess) #==> 5 
+```
+
+## Almost Built in Random Number Function
+
+We have to import the Random module to use the random function
+
+```
+#import Random Module
+import random
+some_num = random.randint(1,10) #==> some integer between 1 and 10 inclusive
+```
+
+randint takes 2 parameters - the minimum number and maximum number
+
+it returns a number greater than or equal to the first parameter and less than or equal to the last number
+
+
