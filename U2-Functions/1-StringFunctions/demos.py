@@ -26,3 +26,11 @@ print(username)
 keyword = "  puzzle   "
 keyword = keyword.strip()
 print(keyword)
+
+# We want to make sure the user entered a number before we turn it into a number
+length = "six"
+height = "5"
+
+print(length.isdigit())
+print(height.isdigit())
+#again, more on the true an false responses in the next unit.
