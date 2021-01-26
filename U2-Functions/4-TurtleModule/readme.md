@@ -21,7 +21,9 @@ from turtle import *
 ```
 
 on Trinket, you must be in a pygame trinket 
+
 on repl.it you have to choose python(with Turtle) for the language
+
 on a computer, it's included with python3
 
 ## Turtle Setup
