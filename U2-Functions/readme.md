@@ -12,7 +12,8 @@ Lessons:
 1. String Methods
 2. Built-in Functions with Strings
 3. Built-in Functions with Numbers
-4. Defining a Function
-5. Return Statements
-6. Single Arguments and Parameters
-7. Multiple Arguments and Parameters
+4. Turtle Module
+5. Defining a Function
+6. Return Statements
+7. Single Arguments and Parameters
+8. Multiple Arguments and Parameters
