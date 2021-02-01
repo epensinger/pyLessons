@@ -33,7 +33,7 @@ The code that runs when the function is called is indented below
 ```python
 # A function to display the rules of a game:
 
-func rules():
+def rules():
     print("Please remember to follow these rules:")
     print("Only choose 1 number.")
     print("Do not include any other characters in your choice.")
