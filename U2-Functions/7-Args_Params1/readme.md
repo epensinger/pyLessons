@@ -1,1 +1,96 @@
-# Single Value Arguments and Parameters
+# Arguments and Parameters
+# Parameters and Arguments
+
+## Parameters
+- variables that are passed to a function
+- placeholders that are assigned when you call the function
+- scope is the function only.  (in English: they only apply inside their function, you can use the same names elsewhere and it is not the same value)
+
+## Arguments
+- the values you pass to the function in the function call
+- some people use these interchangeably 
+
+## Example Code
+
+```python
+def add(a,b):
+    return a+b
+
+add(4,8)
+```
+- a and b are parameters
+- 4 and 8 are arguments.
+- when you call the function and pass 4 and 8, the function assigns 4 to a and 8 to b
+- it then evaluates the expression a + b as 4 + 8
+- it returns the value 12
+
+----
+
+## Another Example
+
+```python
+def multiply(first, second):
+    return first * second
+
+x = multiply(5,10) # 50
+y = multiply(2,6) # 12
+```
+- the first time you call the function, 5 is assigned to first and 10 to second.
+- the function returns 50 which is assigned to x
+- the second time you call the function, 2 is assigned to first and 6 to second.
+- the function returns 12 which is assigned to y
+
+
+----
+
+## Naming Parameters
+```python
+# Not great
+def print_full_name(string1, string2):
+    return(f"Your full name is {string1} {string2}")
+
+# Better
+def print_full_name(first_name, last_name):
+    return(f"Your full name is {first_name} {last_name}")
+
+# Also not great
+def area(x,y):
+    return x * y
+
+# Much better
+def area(length, width):
+    return length * width
+
+```
+- the names you choose for your parameters should give a hint about what you expect will be passed in.
+- remember the parameter only exists within that function
+
+----
+
+## A longer Example
+```python
+l = int(input("What is the length?"))
+w = int(input("What is the width?"))
+
+def area(length, width):
+    return length * width
+
+a = area(l,w)
+```
+- this also works
+```python
+length = int(input("What is the length?"))
+width = int(input("What is the width?"))
+
+def area(length, width):
+    return length * width
+
+a = area(length,width)
+```
+
+# Parameters vs Arguments
+
+- A parameter is a placeholder in the definition.
+- When a method is called, the arguments are the data you pass into the method's parameters.
+- But the line between these can be blurry so you may see them used interchangeably.  
+
