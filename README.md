@@ -13,8 +13,10 @@
 - Unit 6 - Classes
 - Unit 7 - Modules
 
-Functions have been moved earlier in the ordering of the lessons than they appear in many beginnign programming courses.
+Functions have been moved earlier in the ordering of the lessons than they appear in many beginning programming courses.
+
 This choice occured for four reasons:
+
     1. Functions allow learners to isolate segments of code and identify problem areas more quickly.
     2. Functions allow learners to work on more interesting programs by simply calling complex functions that have been provided.
     3. Learners can develop the habit of using functions from the start.
