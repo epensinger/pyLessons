@@ -1,4 +1,4 @@
-# Conditional Statements with IF
+# Conditional Statements with if
 
 # Lesson Goals
 - Buld if statements from comparison expressions
@@ -25,7 +25,7 @@
 
 Syntax:
 ```python
-If (comparison expression):
+if (comparison expression):
     code to run
     might be lots of lines
     notice it's indented
@@ -36,7 +36,7 @@ This line will run wither the if statement is true or not
 ## Examples:
 
 ```python
-If (score > 50):
+if (score > 50):
     print("You win!")
 
 print(game over)
@@ -44,13 +44,13 @@ print(game over)
 
 ## Examples:
 ```python
-If tryPass == realPass:
+if tryPass == realPass:
     print("You are correct")
 ```
 
 ## Examples:
 ```python
-If cash > cost:
+if cash > cost:
     newCash = cash - cost
     print("You will have " + str(newCash) + " left if you purchase this item!")
 ```
@@ -71,3 +71,4 @@ rules = input("Type y to see the rules, or n to continue")
 
 if rules == "y":
     printRules
+```
