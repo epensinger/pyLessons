@@ -39,7 +39,7 @@ This line will run wither the if statement is true or not
 if (score > 50):
     print("You win!")
 
-print(game over)
+print("game over")
 ```
 
 ## Examples:
