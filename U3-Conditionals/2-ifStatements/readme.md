@@ -72,3 +72,33 @@ rules = input("Type y to see the rules, or n to continue")
 if rules == "y":
     printRules
 ```
+
+## Examples:
+you can put an if statement inside a function
+```python
+def checkGuess(userGuess, magicNum, score):
+    if userGuess == magicNum:
+        print("you guessed it right!")
+        score = score + 1
+        return score
+
+score = 0
+num = 44
+guess = input("Guess a number between 0 and 100)
+score = checkGuess(guess, num, score)
+```
+
+## Truthyness and Falsiness and IF
+- the interpreter will evaluate whatever comes after if as a boolean
+- values that are truthy will evaluate to True and the code under the statement will run
+- values that are falsey will evaluate to False and the code under the statement will not run
+
+```python
+
+score = 0
+
+if score:
+    print("your score is " + str(score))
+
+```
+
