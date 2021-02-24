@@ -1,0 +1,134 @@
+# Lesson 3 - Adding Alternatives
+
+## Lesson Goal
+Provide alternate code to run when the initial condition is False
+Use elif to provide alternate conditions after the initial condition is False
+
+---
+
+## Comparison Operators Review
+
+| Operator | What it does                                  | Example | Result if X = 1 and Y = 1 | Result if X = 1 and Y = 2 |
+|------------|------------------------------------------------------------|------------|------------------------------------|------------------------------------|
+| ==       | Truthy if X has the same value as Y           | X == Y  | True                      | False                     |
+| !=       | Truthy if X does not have the same value as Y | X!=Y    | False                     | True                      |
+| >        | Truthy if X is greater than Y                 | X > Y   | False                     | False                     |
+| <        | Truthy if X is less than Y                    | X < Y   | False                     | True                      |
+| >=       | Truthy if X is greater than or equal to Y     | X >= Y  | True                      | False                     |
+| <=       | Truthy if X is less than or equal to Y        | X <= Y  | True                      | True                      |
+
+
+---
+
+
+## Else
+
+Use the keyword else for code to run if the condition evaluates to False
+
+Ex:
+
+```python
+num = 6
+
+if num > 10:  
+    # Because the condition is false this doesn't run
+    print("more than 10")
+else:
+    # This line will run because the initial condition is false
+    print("less than 10")
+
+```
+
+You can have multiple lines in else and you can call functions just like if
+Indentation really matters
+
+
+---
+
+## Else examples
+```python
+age = input("How old are you?")
+age = int(age)
+
+if age >= 16:
+    print("Please drive safely.")
+else:
+    print("You need a driver.")
+
+if age >= 25:
+    print("Please drive a kid.")
+else:
+    print("You may not drive a kid.")
+
+if age <= 5:
+    print("You need a carseat")
+else:
+    print("Please buckle up!")
+```
+
+
+---
+
+# elif
+
+Use the keyword elif to test for a secondary condition that will run if the first condition is false
+
+EX:
+```python
+num = 6
+if num > 10:  
+    # Because the condition is false this doesn't run
+    print("more than 10")
+elif num == 10:
+    #This test will run because the first test was false
+    #The code won't run because this test is false
+    print("The number is 10") 
+else:
+    # This line will run because the initial condition is false
+    print("less than 10")
+```
+
+You can have multiple lines in else and you can call functions just like if
+Indentation really matters
+
+
+---
+
+## Elif Example:
+
+```python
+if letter == "a":
+    morse_code = "._"
+elif letter == "b":
+    morse_code = "_..."
+elif letter == "c":
+    morse_code = "_._."
+else:
+    print("Sorry I was too lazy to do that letter")
+```
+
+
+---
+
+
+## A Practical Examples:
+
+Testing user input:
+
+```python
+chars = input("Say something")
+
+if chars.isalpha():
+    print("You entered letters")
+    #You can put code here to work with strings
+elif chars.isdecimal():
+    print("You entered numbers")
+    #You can convert chars to an int and do math with it here
+elif chars.isspace():
+    print("You entered all spaces")
+else:
+    print("It seems you entered a combination of diferent kinds of characters")
+
+```
+
+
