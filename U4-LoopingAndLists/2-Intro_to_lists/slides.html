@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CCE 4.2 Intro to Lists</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+#Lists
+A new iterable object!
+
+
+--
+
+## Iteration
+### iterable object - some kind of collection of items
+    - a list of numbers
+    - a string of characters
+    - a range of numbers
+
+### Iterate - to work through an iterable object in order
+
+### Index - the position of each item in an iterable object
+
+
+--
+
+## String Index
+- every character in a string has an index, starting at 0
+- use the index to access single characters in a string
+- you can also count from the end of the string using negative numbers
+
+ h | e | l | l | o 
+ --- | --- | --- | --- | ---
+ 0 | 1 | 2 | 3 | 4 
+ -5 | -4 | -3 | -2 | -1 
+
+ a | h | o | y |  | t | h | e | r | e 
+ --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
+ 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 
+ -10 | -9 | -8 | -7 | -6 | -5 | -4 | -3 | -2 | -1 
+
+- to use the index put it in brackets after the variable name
+
+```python
+    last_name = "Potter"
+    last_initial = last_name[0]
+```
+
+---
+
+## List
+- a list is an ordered collection or grouping of data
+- a fundamental data structure for organizing collections of data
+- a data structure is a data type that stores data of various types in a structured way
+
+
+---
+
+# Bring order to data
+```python
+#disorganized, like a kid's bedroom
+toy_1 = "red car"
+toy_2 = "dump truck"
+shoe_1 = "blue sneaker"
+sock_1 = "blue striped sock"
+
+#a list lines everything up in order
+on_shelf = ["red car", "dump truck", "blue hat", "green army man", "buzz lightyear"]
+under_bed = ["blue sneakers", "red sneakers", "yellow rainboots", "black pinchy shoes"]
+```
+
+
+---
+
+# Another Example
+```python
+#random strings have no relationship
+first_task = "install Python"
+second_task = "Learn Python"
+third_task = "take a break"
+
+#lists show that strings fit together
+tasks = ["install Python", "Learn Python", "take a break"]
+
+#I can also use variables to make my list
+tasks = [first_task, second_task, third_task]
+```
+
+
+---
+
+# What can I put in a list?
+- strings, numbers - int and float, variables
+- lists - you can put lists inside of other lists.
+- other data structures we haven't learned yet like dictionaries
+- any comma separated values
+- you can mix data types! - but you usually won't.
+
+
+---
+
+# Make a list
+- define an empty list ```my_list = []```
+- define a list with stuff in it ```my_list = ["thing", "another thing", "something else", "more things"]```
+- use the list function ```list()``` to make a list of a range of numbers
+for example:
+```my_list = list(range(1,10))```
+
+
+---
+
+# Accessing Data in a List
+- print(my_list) returns ["thing", "another thing", "something else", "more things"]
+- Use the index to find individual items.
+
+```python
+on_shelf = ["red car", "dump truck", "blue hat", "green army man", "buzz lightyear"]
+under_bed = ["blue sneakers", "red sneakers", "yellow rainboots", "black pinchy shoes"]
+
+on_shelf[0] #'red car'
+on_shelf[4] # 'buzz lightyear'
+on_shelf[-1] # 'buzz lightyear'
+
+under_bed[2]  # 'yellow rainboots'
+```
+
+
+---
+
+# List Indexes
+- each item in the list has an index that defines its position in the list
+- index always starts at 0
+- access the last item using -1 and can work backwords using negatives
+- using the index doesn't remove anything from the list, it just let's you see it.
+- trying to access an index beyond the end of the list will throw an index error
+
+
+---
+
+# Check if an item is in a list
+```python
+"red car" in on_shelf  #True
+"red sneakers" in under_bed  #False
+```
+- use the condintional in to control if statements and while loops
+
+```python
+if "buzz lightyear" in on_shelf:
+    print("I found Buzz mommy")
+else:
+    throw(full_tantrum)
+```
+      
+</textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
