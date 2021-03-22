@@ -60,8 +60,10 @@ for friend in friends:
 friends = ["Mario", "Luigi", "Princess Peach", "Captain Toad"]
 
 for friend in friends:
-  friend = friend.lower()
+  friend = friend.upper()
   print(friend)
+ 
+print(friends) #doesn't actually change the list
 ```
 
 
@@ -74,6 +76,9 @@ scores = [89, 73, 85, 93]
 
 for score in scores:
   score += 5
+  print(score)
+  
+print(scores)  #doesn't actually change the list
 ```
 
 ---
