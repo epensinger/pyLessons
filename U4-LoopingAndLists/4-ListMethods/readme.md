@@ -71,9 +71,6 @@ my_list.insert(-1, "bye") #inserts by BEFORE the last item
 
 ----
 
-# Exercises List Methods 1
-
-
 # Clear
 - remove all items from the list
 - nothing to put in the parenthesis
@@ -115,10 +112,6 @@ my_list.remove(4) #==> removes the second 4 from the list
 
 
 
-----
-
-# Exercises - List Methods 2
-# List Quiz
 
 
 ----
