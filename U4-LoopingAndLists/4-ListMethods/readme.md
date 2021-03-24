@@ -34,6 +34,10 @@ my_list.remove("new_thing")
 
 ```python
 my_list.append("new_thing")
+
+my_list = ["apple","bacon"]
+my_list.append("cheese")
+print(my_list)  #==> ["apple", "bacon", "cheese"]
 #if passed a list, will nest the list inside the list
 my_list = [1, 2, 3]
 my_list.append([4, 5, 6]) #==> my_list is now [1,2,3,[4,5,6]]
