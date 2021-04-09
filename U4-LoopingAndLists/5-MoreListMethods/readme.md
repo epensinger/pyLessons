@@ -1,4 +1,4 @@
-# Lesson 4 - More List Methods
+# Lesson 5 - More List Methods
 - in this lesson you will learn to use a few more helpful list methods and how to extract parts of your lists.
 
 
