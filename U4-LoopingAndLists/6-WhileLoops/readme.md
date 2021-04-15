@@ -168,3 +168,13 @@ for time in range(times):
 ---
 
 ### Loops Quiz
+
+
+ </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
