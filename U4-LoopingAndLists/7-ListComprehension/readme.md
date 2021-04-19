@@ -12,7 +12,7 @@ In this lesson you will learn some python magic for making lists.
 
 ----
 
-##Lesson Outline
+## Lesson Outline
 
 
 ---
