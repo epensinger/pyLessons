@@ -8,7 +8,7 @@
 - conditional expression that returns a boolean
 
 
-----
+---
 
 ### Does a dictionary have this key?
 
@@ -27,7 +27,7 @@ if ship in char1:
 ```
 
 
-----
+---
 
 ### Does this Dictionary have this value?
 
@@ -46,13 +46,13 @@ if "light" in char1.values():
 ```
 
 
-----
+---
 
 
 ## Dictionary Methods
 
 
-----
+---
 
 ### Clear
 clear all the keys and values in a dictionary
@@ -68,7 +68,7 @@ p1.clear()  #p1 now empty
 ```
 
 
-----
+---
 
 ### Copy
 makes a copy of a dictionary
@@ -86,7 +86,7 @@ p1 = player_steve.copy()
 ```
 
 
-----
+---
 
 ### fromKeys
 creats a new dictionary with key value pairs from comma separated values
@@ -99,7 +99,7 @@ new_user = {}.fromKeys(["name", "email", "phone", "zip"], "unknown")
 ```
 
 
-----
+---
 
 ### Get
 retrieves the value of a key in an object and None instead of an error if the key doesn't exist
