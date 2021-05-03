@@ -1,4 +1,4 @@
-# Lesson 4 More Dictionary Methods
+# Lesson 3 More Dictionary Methods
 
 
 ## Lesson Outline
